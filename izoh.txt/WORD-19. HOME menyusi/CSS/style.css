@@ -1,0 +1,216 @@
+/* ===========================
+   Umumiy sahifa sozlamalari
+=========================== */
+
+body{
+
+    margin:0;
+
+    padding:0;
+
+    background:#d6d6d6;
+
+    font-family:Calibri, Arial, sans-serif;
+
+}
+
+
+/* ===========================
+   Asosiy Word oynasi
+=========================== */
+
+.window{
+
+    width:95%;
+
+    margin:20px auto;
+
+    background:white;
+
+    border:1px solid gray;
+
+    box-shadow:0px 0px 15px silver;
+
+}
+
+
+/* ===========================
+   Yuqori sarlavha paneli
+=========================== */
+
+.title-bar{
+
+    background:#1976d2;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:10px;
+
+}
+
+
+/* Chap tugmalar */
+
+.quick-access button{
+
+    margin-right:5px;
+
+}
+
+
+/* Hujjat nomi */
+
+.document-title{
+
+    font-size:20px;
+
+    font-weight:bold;
+
+}
+
+
+/* Oyna tugmalari */
+
+.window-buttons button{
+
+    margin-left:5px;
+
+}
+
+
+/* ===========================
+   Ribbon (Menu)
+=========================== */
+
+.ribbon{
+
+    background:#f0f0f0;
+
+    border-bottom:1px solid gray;
+
+    padding:10px;
+
+}
+
+
+.ribbon button{
+
+    margin-right:5px;
+
+    padding:8px 14px;
+
+    border:none;
+
+    background:white;
+
+    cursor:pointer;
+
+}
+
+
+.ribbon button:hover{
+
+    background:#d0e8ff;
+
+}
+
+
+.active{
+
+    background:#1976d2 !important;
+
+    color:white;
+
+}
+
+
+/* ===========================
+   HOME menyusi
+=========================== */
+
+.home-menu{
+
+    display:flex;
+
+    justify-content:space-around;
+
+    padding:15px;
+
+    background:#fafafa;
+
+}
+
+
+/* Har bir guruh */
+
+.group{
+
+    width:18%;
+
+    border:1px solid silver;
+
+    padding:10px;
+
+    text-align:center;
+
+    background:white;
+
+}
+
+
+/* Guruh sarlavhasi */
+
+.group h3{
+
+    color:#1976d2;
+
+}
+
+
+/* Tugmalar */
+
+.group button{
+
+    display:block;
+
+    width:100%;
+
+    margin-top:6px;
+
+    padding:8px;
+
+    cursor:pointer;
+
+}
+
+
+/* Sichqoncha borganda */
+
+.group button:hover{
+
+    background:#1976d2;
+
+    color:white;
+
+}
+
+
+/* ===========================
+   Ishchi maydon
+=========================== */
+
+.workspace{
+
+    padding:40px;
+
+    min-height:500px;
+
+    background:white;
+
+}

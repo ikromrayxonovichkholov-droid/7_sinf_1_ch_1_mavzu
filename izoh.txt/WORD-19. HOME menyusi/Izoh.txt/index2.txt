@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+
+    <!-- O'zbek tilidagi belgilarni to'g'ri ko'rsatish -->
+    <meta charset="UTF-8">
+
+    <!-- Telefon va planshetlarda mos ko'rinish -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Brauzer oynasidagi nom -->
+    <title>Microsoft Word 2019 - HOME menyusi</title>
+
+    <!-- CSS faylini ulash -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- ========================= -->
+    <!-- WORD OYNASI BOSHLANISHI -->
+    <!-- ========================= -->
+
+    <div class="window">
+
+        <!-- Sarlavha qismi -->
+        <div class="title-bar">
+
+            <div class="quick-access">
+
+                <button title="Save">💾</button>
+
+                <button title="Undo">↶</button>
+
+                <button title="Redo">↷</button>
+
+            </div>
+
+            <div class="document-title">
+
+                Microsoft Word 2019
+
+            </div>
+
+            <div class="window-buttons">
+
+                <button>—</button>
+
+                <button>□</button>
+
+                <button>✕</button>
+
+            </div>
+
+        </div>
+
+        <!-- Ribbon (Menyu) -->
+        <div class="ribbon">
+
+            <button>File</button>
+
+            <button class="active">Home/Bosh sahifa/Главная</button>
+
+            <button>Insert</button>
+
+            <button>Design</button>
+
+            <button>Layout</button>
+
+            <button>References</button>
+
+            <button>Mailings</button>
+
+            <button>Review</button>
+
+            <button>View</button>
+
+        </div>
+
+        <!-- HOME menyusi -->
+        <div class="home-menu">
+
+            <!-- Clipboard -->
+            <div class="group">
+
+                <h3>Clipboard/Almashish buferi/Буфер обмена</h3>
+
+                <button>Paste/Qo`yish/Вставить</button>
+
+                <button>Cut/Kesish/Выразать</button>
+
+                <button>Copy/Nusxalash/Копировать</button>
+
+                <button>Format Painter/Formatni nusxalash/Формат по образцу</button>
+
+            </div>
+
+            <!-- Font -->
+            <div class="group">
+
+                <h3>Font</h3>
+
+                <button>Bold</button>
+
+                <button>Italic</button>
+
+                <button>Underline</button>
+
+                <button>Font Color</button>
+
+            </div>
+
+            <!-- Paragraph -->
+            <div class="group">
+
+                <h3>Paragraph</h3>
+
+                <button>Bullets</button>
+
+                <button>Numbering</button>
+
+                <button>Align Left</button>
+
+                <button>Center</button>
+
+                <button>Align Right</button>
+
+                <button>Justify</button>
+
+            </div>
+
+            <!-- Styles -->
+            <div class="group">
+
+                <h3>Styles</h3>
+
+                <button>Normal/Oddiy matn/Обычный</button>
+
+                <button>Heading 1/1-Sarlavha/Заголовок 1</button>
+
+                <button>Heading 2/2-Sarlavha/Заголовок 2</button>
+
+                <button>Title/Hujjat nomi/Название</button>
+
+            </div>
+
+            <!-- Editing -->
+            <div class="group">
+
+                <h3>Editing</h3>
+
+                <button>Find</button>
+
+                <button>Replace</button>
+
+                <button>Select</button>
+
+            </div>
+
+        </div>
+
+        <!-- Ishchi maydon -->
+        <div class="workspace">
+
+            <h2>Microsoft Word 2019</h2>
+
+            <p>
+                Bu yerda hujjat matni yoziladi.
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- ========================= -->
+    <!-- WORD OYNASI TUGASHI -->
+    <!-- ========================= -->
+
+    <!-- JavaScript fayli -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

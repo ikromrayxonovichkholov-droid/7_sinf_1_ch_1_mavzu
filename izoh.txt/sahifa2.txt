@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/style.css">
+<title>1-savol javobi</title>
+</head>
+
+<body>
+
+<h1>Darsimiz 2-rejasining javobi</h1>
+<h1><a href="images/7112.jpg">Bilishingiz kerak...</a></h1>
+<img src="images/7112.jpg" alt="7112" width="600">
+<p>HOME (Bosh sahifa / Главная) menyusi hujjat bilan ishlashda eng ko'p foydalaniladigan buyruqlarni o'z ichiga oladi. U quyidagi bo'limlardan tashkil topgan:
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+
+<meta charset="UTF-8">
+
+<title>Microsoft Word 2019 Menyulari</title>
+
+<style>
+
+body{
+    font-family:Arial;
+    background:#f5f5f5;
+    margin:30px;
+}
+
+h1{
+    text-align:center;
+    color:darkblue;
+}
+
+h2{
+    color:#0066cc;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-bottom:30px;
+    background:white;
+}
+
+th{
+    background:#0066cc;
+    color:white;
+    padding:10px;
+}
+
+td{
+    border:1px solid gray;
+    padding:8px;
+}
+
+tr:nth-child(even){
+    background:#eeeeee;
+}
+
+tr:hover{
+    background:#ffff99;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Microsoft Word 2019 Menyulari</h1>
+
+<table>
+
+<tr>
+<th>№</th>
+<th>English</th>
+<th>O'zbekcha</th>
+<th>Русский</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>File</td>
+<td>Fayl</td>
+<td>Файл</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Home</td>
+<td>Bosh sahifa</td>
+<td>Главная</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>Insert</td>
+<td>Qo'yish</td>
+<td>Вставка</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>Design</td>
+<td>Dizayn</td>
+<td>Конструктор</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>Layout</td>
+<td>Maket</td>
+<td>Макет</td>
+</tr>
+
+<tr>
+<td>6</td>
+<td>References</td>
+<td>Havolalar</td>
+<td>Ссылки</td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>Mailings</td>
+<td>Xatlar</td>
+<td>Рассылки</td>
+</tr>
+
+<tr>
+<td>8</td>
+<td>Review</td>
+<td>Taqriz</td>
+<td>Рецензирование</td>
+</tr>
+
+<tr>
+<td>9</td>
+<td>View</td>
+<td>Ko'rinish</td>
+<td>Вид</td>
+</tr>
+
+</table>
+
+<h2>HOME menyusi (Clipboard)</h2>
+
+<table>
+
+<tr>
+<th>English</th>
+<th>O'zbekcha</th>
+<th>Русский</th>
+</tr>
+
+<tr>
+<td>Paste</td>
+<td>Qo'yish</td>
+<td>Вставить</td>
+</tr>
+
+<tr>
+<td>Cut</td>
+<td>Kesish</td>
+<td>Вырезать</td>
+</tr>
+
+<tr>
+<td>Copy</td>
+<td>Nusxalash</td>
+<td>Копировать</td>
+</tr>
+
+<tr>
+<td>Format Painter</td>
+<td>Formatni nusxalash</td>
+<td>Формат по образцу</td>
+</tr>
+
+</table>
+
+<h2>HOME menyusi (Font)</h2>
+
+<table>
+
+<tr>
+<th>English</th>
+<th>O'zbekcha</th>
+<th>Русский</th>
+</tr>
+
+<tr>
+<td>Bold</td>
+<td>Qalin</td>
+<td>Полужирный</td>
+</tr>
+
+<tr>
+<td>Italic</td>
+<td>Kursiv</td>
+<td>Курсив</td>
+</tr>
+
+<tr>
+<td>Underline</td>
+<td>Tagiga chizish</td>
+<td>Подчеркнутый</td>
+</tr>
+
+<tr>
+<td>Font Color</td>
+<td>Matn rangi</td>
+<td>Цвет шрифта</td>
+</tr>
+
+<tr>
+<td>Text Highlight Color</td>
+<td>Matnni ajratish rangi</td>
+<td>Цвет выделения текста</td>
+</tr>
+
+</table>
+
+<h2>HOME menyusi (Paragraph)</h2>
+<table>
+<tr>
+<th>English</th>
+<th>O'zbekcha</th>
+<th>Русский</th>
+</tr>
+
+<tr>
+<td>Bullets</td>
+<td>Belgili ro'yxat</td>
+<td>Маркеры</td>
+</tr>
+
+<tr>
+<td>Numbering</td>
+<td>Raqamli ro'yxat</td>
+<td>Нумерация</td>
+</tr>
+
+<tr>
+<td>Align Left</td>
+<td>Chapga tekislash</td>
+<td>По левому краю</td>
+</tr>
+
+<tr>
+<td>Center</td>
+<td>Markazga tekislash</td>
+<td>По центру</td>
+</tr>
+
+<tr>
+<td>Align Right</td>
+<td>O'ngga tekislash</td>
+<td>По правому краю</td>
+</tr>
+
+<tr>
+<td>Justify</td>
+<td>Eni bo'yicha tekislash</td>
+<td>По ширине</td>
+</tr>
+</table>
+
+<h2>HOME menyusi (Styles)</h2>
+
+<table>
+
+<tr>
+<th>English</th>
+<th>O'zbekcha</th>
+<th>Русский</th>
+<th>Vazifasi</th>
+</tr>
+
+<tr>
+<td>Normal</td>
+<td>Oddiy matn</td>
+<td>Обычный</td>
+<td>Standart matn uslubi.</td>
+</tr>
+
+<tr>
+<td>No Spacing</td>
+<td>Oraliqsiz</td>
+<td>Без интервала</td>
+<td>Abzatslar orasidagi masofani olib tashlaydi.</td>
+</tr>
+
+<tr>
+<td>Heading 1</td>
+<td>1-sarlavha</td>
+<td>Заголовок 1</td>
+<td>Asosiy bo'lim sarlavhasi.</td>
+</tr>
+
+<tr>
+<td>Heading 2</td>
+<td>2-sarlavha</td>
+<td>Заголовок 2</td>
+<td>Ikkinchi darajali sarlavha.</td>
+</tr>
+
+<tr>
+<td>Heading 3</td>
+<td>3-sarlavha</td>
+<td>Заголовок 3</td>
+<td>Uchinchi darajali sarlavha.</td>
+</tr>
+
+<tr>
+<td>Title</td>
+<td>Hujjat nomi</td>
+<td>Название</td>
+<td>Hujjatning asosiy nomi uchun.</td>
+</tr>
+
+<tr>
+<td>Subtitle</td>
+<td>Qo'shimcha sarlavha</td>
+<td>Подзаголовок</td>
+<td>Asosiy sarlavha ostidagi matn.</td>
+</tr>
+
+<tr>
+<td>Quote</td>
+<td>Iqtibos</td>
+<td>Цитата</td>
+<td>Iqtiboslarni chiroyli ko'rinishda yozish.</td>
+</tr>
+
+<tr>
+<td>Intense Quote</td>
+<td>Katta iqtibos</td>
+<td>Яркая цитата</td>
+<td>Ajratib ko'rsatiladigan iqtiboslar uchun.</td>
+</tr>
+
+<tr>
+<td>Emphasis</td>
+<td>Ta'kidlash</td>
+<td>Выделение</td>
+<td>Matnning muhim qismini ajratish.</td>
+</tr>
+
+<tr>
+<td>Strong</td>
+<td>Kuchli ta'kidlash</td>
+<td>Сильное выделение</td>
+<td>Qalin va muhim matn.</td>
+</tr>
+
+<tr>
+<td>List Paragraph</td>
+<td>Ro'yxat abzatsi</td>
+<td>Абзац списка</td>
+<td>Ro'yxatlar uchun maxsus uslub.</td>
+</tr>
+
+</table>
+
+</body>
+</html>
+
+
+

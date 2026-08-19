@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<title>Murakkabroq Test</title>
+
+<style>
+body{
+    font-family:Arial, sans-serif;
+    margin:30px;
+    background:#f0f8ff;
+}
+
+h2{
+    color:darkblue;
+    text-align:center;
+}
+
+.question{
+    background:white;
+    padding:15px;
+    margin-bottom:20px;
+    border-radius:10px;
+    box-shadow:0 0 5px gray;
+}
+
+button{
+    padding:10px 20px;
+    font-size:18px;
+    background:green;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:darkgreen;
+}
+
+#natija{
+    margin-top:20px;
+    padding:15px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 0 5px gray;
+    font-size:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<h2>INFORMATIKA 6-SINF I-CHORAK 1-MAVZU TEST-1</h2>
+
+<form id="test">
+
+<div class="question">
+<p><b>1. HUJJATGA matn qo`shish qanday bajariladi?</b></p>
+
+<label>
+<input type="radio" name="q1" value="1">
+Klaviatura tugmachalari yordamida
+</label><br>
+
+<label>
+<input type="radio" name="q1" value="0">
+Matn kursori yordamida
+</label><br>
+
+<label>
+<input type="radio" name="q1" value="0">
+Sichqoncha yordamida
+</label>
+
+</div>
+
+<div class="question">
+<p><b>2. Matn kursorining vazifasi?</b></p>
+
+<label>
+<input type="radio" name="q2" value="1">
+Matn sahifaning qayeriga kiritilishini ko`rsatadi
+</label><br>
+
+<label>
+<input type="radio" name="q2" value="0">
+Klaviatura tugmachalaridan foydalanishni ko`rsatadi
+</label><br>
+
+<label>
+<input type="radio" name="q2" value="0">
+SHIFT tugmasini bosishni ko`rsatadi
+</label>
+
+</div>
+
+<div class="question">
+<p><b>3. Matn o`zi nima?</b></p>
+
+<label>
+<input type="radio" name="q3" value="1">
+Hujjatga kiritilgan so`zlar
+</label><br>
+
+<label>
+<input type="radio" name="q3" value="0">
+Hujjatga kiritilgan rasmlar
+</label><br>
+
+<label>
+<input type="radio" name="q3" value="0">
+Hujjatga kiritilgan jadvallr
+</label>
+
+</div>
+<div class="question">
+<p><b>4. Matnni o`zgartirishning necha usulini bilasiz?</b></p>
+
+
+<label>
+<input type="radio" name="q4" value="0">
+To`rt usulini bilaman
+</label><br>
+
+<label>
+<input type="radio" name="q4" value="0">
+Besh usulini bilaman
+</label></br>
+<label>
+<input type="radio" name="q4" value="1">
+Uch usulini bilaman
+</label><br>
+
+</div>
+</div>
+<div class="question">
+<p><b>5. Matnni o`zgartirishning birinchi usuli qanday?</b></p>
+
+
+<label>
+<input type="radio" name="q5" value="1">
+Harflab o`chirish uchun klaviaturadagi BACKSPACE tugmasi bosiladi
+</label><br>
+
+<label>
+<input type="radio" name="q5" value="0">
+Sichqonchaning kursori kerakli so`z ustiga keltiriladi va chap tugmaikki marta bosiladi.Shunda bitta so`z to`liq belgilanadi,so`ng BACKSPACE tugmasi bir marta bosiladi,shu so`z g`oyib bo`ladi.</br>
+</label>
+<label>
+<input type="radio" name="q5" value="0">
+Sichqonchaning chap tugmasini bosib turgan holda kursor keraksiz jumla ustidan harakatlantiriladi.Jumlaning fon rangi o`zgarib belgilanadi.So`ng BACKSPACE yoki DELETE tugmalaridan biri bosiladi,belgilangan jumla o`chib ketadi
+</label><br>
+</div>
+<div class="question">
+<p><b>6. Matnni o`zgartirishning ikkinchi usuli qanday?</b></p>
+
+
+<label>
+<input type="radio" name="q6" value="0">
+Harflab o`chirish uchun klaviaturadagi BACKSPACE tugmasi bosiladi
+</label><br>
+
+<label>
+<input type="radio" name="q6" value="0">
+Sichqonchaning chap tugmasini bosib turgan holda kursor keraksiz jumla ustidan harakatlantiriladi.Jumlaning fon rangi o`zgarib belgilanadi.So`ng BACKSPACE yoki DELETE tugmalaridan biri bosiladi,belgilangan jumla o`chib ketadi
+</label><br>
+<label>
+<input type="radio" name="q6" value="1">
+Sichqonchaning kursori kerakli so`z ustiga keltiriladi va chap tugma ikki marta bosiladi.Shunda bitta so`z to`liq belgilanadi,so`ng BACKSPACE tugmasi bir marta bosiladi,shu so`z  g`oyib bo`ladi.
+</label>
+</div>
+<div class="question">
+<p><b>7. Matnni o`zgartirishning uchunchi usuli qanday?</b></p>
+
+<label>
+<input type="radio" name="q7" value="0">
+Harflab o`chirish uchun klaviaturadagi BACKSPACE tugmasi bosiladi
+</label><br>
+
+<label>
+<input type="radio" name="q7" value="1">
+Sichqonchaning chap tugmasini bosib turgan holda kursor keraksiz jumla ustidan harakatlantiriladi.Jumlaning fon rangi o`zgarib belgilanadi.So`ng BACKSPACE yoki DELETE tugmalaridan biri bosiladi,belgilangan jumla o`chib ketadi
+</label><br>
+<label>
+<input type="radio" name="q7" value="0">
+Sichqonchaning kursori kerakli so`z ustiga keltiriladi va chap tugma ikki marta bosiladi.Shunda bitta so`z to`liq belgilanadi,so`ng BACKSPACE tugmasi bir marta bosiladi,shu so`z  g`oyib bo`ladi.
+</label>
+</div>
+<div class="question">
+<p><b>8. Matnni ko`chirish necha xil usulda bajariladi?</b></p>
+
+<label>
+<input type="radio" name="q8" value="0">
+To`rt xil usulda
+</label><br>
+
+<label>
+<input type="radio" name="q8" value="0">
+Uch xil usulda
+</label></br>
+<label>
+<input type="radio" name="q8" value="1">
+Ikki xil usulda
+</label><br>
+
+</div>
+<div class="question">
+<p><b>9. Matnni ko`chirishning birinchi usuli qanday bajariladi?</b></p>
+
+<label>
+<input type="radio" name="q9" value="1">
+Kursor belgilangan matn ustiga olib boriladi va sichqonchaning chap tugmasi bosiladi.Shu turishda kursorni hujjatning kerakli joyiga yurgiziladi.Belgilangan matn kursor bilan birga ko`chadi.
+</label><br>
+
+<label>
+<input type="radio" name="q9" value="0">
+Matn belgilanadi va sichqonchaning o`ng tugmasi bosiladi.Menyudagi  ochiluvchi ro`yxatdan Cut buyrug`i tanlanadi.belgilangan matn sahifadan o`chadi.Kursor matn ko`chiriladigan joyga olib boriladi,sichqonchaning o`ng tugmasi bosiladi,menyudagi ochiluvchi ro`yxatdan Past buyrug`i tanlanadi.Natijada matn yangi joyga ko`chiriladi.
+</label></br>
+<label>
+<input type="radio" name="q9" value="0">
+Matn belgilanadi va sichqonchaning o`ng tugmasi bosiladi.Menyudagi  ochiluvchi ro`yxatdan Copy buyrug`i tanlanadi.belgilangan matn sahifadan o`chadi.Kursor matn ko`chiriladigan joyga olib boriladi,sichqonchaning o`ng tugmasi bosiladi,menyudagi ochiluvchi ro`yxatdan Past buyrug`i tanlanadi.Natijada matn yangi joyga ko`chiriladi.
+</label><br>
+</div>
+<div class="question">
+<p><b>10.  Matnni ko`chirishning ikkinchi usuli qanday bajariladi?</b></p>
+
+<label>
+<input type="radio" name="q10" value="0">
+Matn belgilanadi va sichqonchaning o`ng tugmasi bosiladi.Menyudagi  ochiluvchi ro`yxatdan Copy buyrug`i tanlanadi.belgilangan matn sahifadan o`chadi.Kursor matn ko`chiriladigan joyga olib boriladi,sichqonchaning o`ng tugmasi bosiladi,menyudagi ochiluvchi ro`yxatdan Past buyrug`i tanlanadi.Natijada matn yangi joyga ko`chiriladi.
+</label><br>
+
+<label>
+<input type="radio" name="q10" value="0">
+Kursor belgilangan matn ustiga olib boriladi va sichqonchaning chap tugmasi bosiladi.Shu turishda kursorni hujjatning kerakli joyiga yurgiziladi.Belgilangan matn kursor bilan birga ko`chadi.
+</label></br>
+<label>
+<input type="radio" name="q10" value="1">
+Matn belgilanadi va sichqonchaning o`ng tugmasi bosiladi.Menyudagi  ochiluvchi ro`yxatdan Cut buyrug`i tanlanadi.belgilangan matn sahifadan o`chadi.Kursor matn ko`chiriladigan joyga olib boriladi,sichqonchaning o`ng tugmasi bosiladi,menyudagi ochiluvchi ro`yxatdan Past buyrug`i tanlanadi.Natijada matn yangi joyga ko`chiriladi.
+</label></br>
+</div>
+<div class="question">
+<p><b>11. Bilasizmi...Aksariyat odamlar elektron hujjatga ortach bir daqiqada nechta so`z kiritadi?</b></p>
+<label>
+<input type="radio" name="q11" value="1">
+Bir daqiqada 40 ta so`z kiritadi
+</label><br>
+<label>
+<input type="radio" name="q11" value="0">
+Bir daqiqada 75 ta so`z kiritadi
+</label></br>
+<label>
+<input type="radio" name="q11" value="0">
+Bir daqiqada 55 ta so`z kiritadi
+</label><br>
+</div>
+<div class="question">
+<p><b>12.  Bilasizmi...Professional matn teruvchilar elektron hujjatga ortach bir daqiqada nechta so`z kiritadi</b></p>
+
+<label>
+<input type="radio" name="q12" value="0">
+Bir daqiqada 40-45 ta so`z kiritishadi
+</label><br>
+
+<label>
+<input type="radio" name="q12" value="0">
+Bir daqiqada 50-60 ta so`z kiritishadi
+</label></br>
+<label>
+<input type="radio" name="q12" value="1">
+Bir daqiqada 65-75 ta so`z kiritishadi
+</label><br>
+</div>
+<div class="question">
+<p><b>13. WORD -19 dasturida Spelling & Grammar checker buyrug`ining vazifasi?</b></p>
+
+<label>
+<input type="radio" name="q13" value="0">
+Hujjat tarkibidagi o`zgartirishlarni kuzatishdan iborat 
+</label><br>
+
+<label>
+<input type="radio" name="q13" value="1">
+Hujjat tarkibidagi so`zlarni ko`rib tekshirish va imlo xatolarini to`grilashdan iborat
+</label></br>
+<label>
+<input type="radio" name="q13" value="0">
+Hujjat tarkibidagi so`zlarni tarjima va taqqoslashdan iborat
+</label><br>
+</div>
+<div class="question">
+<p><b>14. WORD-19 dasturida Рецензирование menyusining vazifasi nimadan iborat?</b></p>
+
+<label>
+<input type="radio" name="q14" value="1">
+Hujjat tarkibidagi so`zlarni ko`rib-tekshirib chiqish-(Review) vazifasini bajaradi
+</label><br>
+
+<label>
+<input type="radio" name="q14" value="0">
+Hujjat tarkibidagi kiritilayotgan so`zlarni to`g`ri yoki noto`g`riligini bildirish va to`g`rilash (Spelling) vazifasini bajaradi
+</label></br>
+<label>
+<input type="radio" name="q14" value="0">
+Hujjat tarkibidagi kiritilayotgan so`zlarni grammatikasini tekshirish(Grammar) vazifasini bajaradi
+</label><br>
+</div>
+<div class="question">
+<p><b>15.WORD-19 dasturida Правописание buyrug`ining vazifasi nimadan iborat?</b></p>
+
+<label>
+<input type="radio" name="q15" value="0">
+Hujjat tarkibidagi kiritilayotgan so`zlarni grammatikasini tekshirish(Grammar) vazifasini bajaradi
+</label><br>
+
+<label>
+<input type="radio" name="q15" value="0">
+Hujjat tarkibidagi so`zlarni ko`rib-tekshirib chiqish-(Review) vazifasini bajaradi
+</label></br>
+<label>
+<input type="radio" name="q15" value="1">
+Hujjat tarkibidagi kiritilayotgan so`zlarni to`g`ri yoki noto`g`riligini bildirish va to`g`rilash (Spelling) vazifasini bajaradi
+</label><br>
+
+</div>
+<button type="button" onclick="tekshir()">
+Natijani ko'rish
+</button>
+
+</form>
+
+<div id="natija"></div>
+
+<script>
+
+function tekshir(){
+
+let jamiSavol = 15;
+
+let ball = 0;
+
+let hisobot = "";
+
+for(let i=1; i<=jamiSavol; i++){
+
+let javob =
+document.querySelector('input[name="q'+i+'"]:checked');
+
+if(javob){
+
+if(javob.value=="1"){
+
+ball++;
+
+hisobot += "✅ " + i +
+"-savol : To'g'ri<br>";
+
+}else{
+
+hisobot += "❌ " + i +
+"-savol : Noto'g'ri<br>";
+
+}
+
+}else{
+
+hisobot += "⚠ " + i +
+"-savol javob belgilanmagan.<br>";
+
+}
+
+}
+
+let foiz = (ball/jamiSavol)*100;
+
+let baho="";
+
+if(foiz>=90){
+
+baho="5";
+
+}else if(foiz>=70){
+
+baho="4";
+
+}else if(foiz>=50){
+
+baho="3";
+
+}else{
+
+baho="2";
+
+}
+
+document.getElementById("natija").innerHTML=
+
+"<h2>TEST NATIJASI</h2>" +
+
+hisobot +
+
+"<hr>" +
+
+"<b>To'g'ri javoblar:</b> " + ball +
+
+"<br><b>Jami savollar:</b> " + jamiSavol +
+
+"<br><b>Foiz:</b> " + foiz.toFixed(1) + "%" +
+
+"<br><br><b>Baho:</b> " + baho;
+
+}
+
+</script>
+
+</body>
+</html>

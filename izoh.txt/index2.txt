@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darsliklar sayti</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+        }
+
+        header {
+            color: black;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .card {
+            background: white;
+            width: 280px;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .icon {
+            font-size: 50px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 15px;
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #0056b3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            color: white;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+
+
+<body>
+
+<header>
+    📚 7-sinf darsligidagi o‘quv materiallari(Toshkent-2023)
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <div class="icon">📄</div>
+        
+ 
+     <h2>
+    <span class="modul">I-MODUL:</span>
+    <span class="nom">MATNLI HUJJATLARDAN MAQSADLI FOYDALANISH.</span>
+</h2>
+
+<p>
+    <span class="mavzu">1-MAVZU:</span>
+    <span class="matn">Matn stillarini sozlash va ulardan foydalanish.(7-9-sahifalar)</span>
+</p>
+        
+        <a class="btn" href="7-sinf_Informatika_AT_fani.pdf">Ochish</a>
+             
+ </div>
+
+    <div class="card">
+        <div class="icon">📊</div>
+        <h2>DARSNING rejasi:</h2>
+        <p>Dars rejarlarini ko`rish</p>
+        <a class="btn" href="index1.html" target="_blank">Ochish</a>
+        
+    </div>
+
+    <div class="card">
+        <div class="icon">📽</div>
+        <h2>Darsning Testlari</h2>
+        <p>Testlarni ko‘rish va bajarish</p>
+        <a class="btn" href="2M.test.html">Ochish</a>
+         <a class="btn" href="izoh.txt\WORD-19. HOME menyusi/index2.html">Ochish</a>
+          
+</div>
+
+</div>
+
+<footer>
+    © 2026 Ikrom Rayxonovich Kholov
+</footer>
+
+</body>
+</html>

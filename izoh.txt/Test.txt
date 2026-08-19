@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<title>Oddiy Test</title>
+
+<style>
+body{
+    font-family:Arial;
+    margin:30px;
+    background:#f0f8ff;
+}
+
+h1{
+    color:darkblue;
+}
+
+.question{
+    background:white;
+    padding:15px;
+    margin-bottom:15px;
+    border-radius:10px;
+    box-shadow:0 0 5px gray;
+}
+
+button{
+    padding:10px 20px;
+    font-size:18px;
+    background:green;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+#natija{
+    margin-top:20px;
+    font-size:22px;
+    color:red;
+    font-weight:bold;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>"INFORMATIKA VA AXBOROT TEXNOLOGIYALARI" I-CHORAK.7-SINF 1-MAVZU TESTI</h1>
+
+<div class="question">
+
+<p><b>1. Matn stili nima?.Siz matn stilini qanday tushunasiz</b></p>
+
+<input type="radio" name="q1" value="0">
+ Matn va tasvirlarning stilini o`zgartirish<br>
+
+<input type="radio" name="q1" value="1">
+ Matnning tashqi ko`rinishi,masalan,shrift turi,o`lchami,rangi kabi xususiyatlari<br>
+
+<input type="radio" name="q1" value="0">
+ Ekranda ochilib,turli buyruqlar ro`yxatini ko`rsatib turuvchi maydon<br>
+
+</div>
+
+<div class="question">
+<p><b>2. Formatlash nima?.Siz formatlash deganda nimani tushunasiz</b></p>
+
+<input type="radio" name="q1" value="1">
+ Matn va tasvirlarning stilini o`zgartirish<br>
+
+<input type="radio" name="q1" value="0">
+ Matnning tashqi ko`rinishi,masalan,shrift turi,o`lchami,rangi kabi xususiyatlari<br>
+
+<input type="radio" name="q1" value="0">
+ Ekranda ochilib,turli buyruqlar ro`yxatini ko`rsatib turuvchi maydon<br>
+</div>
+
+<button onclick="tekshir()">
+Natijani ko'rish
+</button>
+
+<p id="natija"></p>
+
+<script>
+
+function tekshir(){
+
+let ball=0;
+
+let q1=document.querySelector('input[name="q1"]:checked');
+
+let q2=document.querySelector('input[name="q2"]:checked');
+
+if(q1){
+ball+=Number(q1.value);
+}
+
+if(q2){
+ball+=Number(q2.value);
+}
+
+document.getElementById("natija").innerHTML=
+"Sizning natijangiz: "+ball+" / 2";
+
+}
+
+</script>
+
+</body>
+</html>
